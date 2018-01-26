@@ -216,3 +216,22 @@ li a {
     background: url(../imgs/heart.png);
     
 }
+
+#paypal {
+      top: 239px;
+    left: 290px;
+    width: 240px;
+    height: 40px;
+    position: absolute;    
+    background: url(../imgs/playpal.jpg);
+}
+
+#wepay {
+      top: 300px;
+    left: 290px;
+    width: 240px;
+    height: 40px;
+    position: absolute;    
+    background: url(../imgs/wiipay.jpg);
+    
+}
