@@ -33,6 +33,11 @@ header {
     background: linear-gradient(to bottom, rgba(232,232,232,.1) 0%, rgba(232,232,232,.3) 100%);
 }
 
+nav ul {
+    margin:0px;
+    padding:0 10px;
+    list-style:none;   
+}
 
 nav {
     height: 32px;
@@ -41,8 +46,12 @@ nav {
     line-height: 30px;
     position: absolute;
     top: 145px;
-    left: 30px;
-        
+    left: 30px;        
+}
+
+li a:hover{
+    color: #fff;
+    background:linear-gradient(rgba(233,233,233,0),rgba(233,233,233,.5),rgba(233,233,233,0));    
 }
 
 ul {
@@ -50,6 +59,7 @@ ul {
     padding: 0 10px;
     list-style: none;
 }
+
 li a {
     float:left;
     color:#7f95a8;
@@ -60,4 +70,149 @@ li a {
     text-align:center;
     padding:0 12px;
     font-weight:bold;
+}
+
+#border1{
+    
+    position:absolute;
+    top: 170px;
+    width: 900px;
+    height: 692px;   
+    background-color: transparent;
+    border-radius: 10px;
+    left: 350px;
+    background: linear-gradient(to bottom, rgba(232,232,232,.1) 0%, rgba(232,232,232,.1) 100%);
+    
+}
+#text {
+      position:absolute;
+    top: 21px;
+    width: 860px;
+    height: 650px;   
+    background-color: black;
+    border-radius: 10px;
+    left: 21px;
+   
+}
+
+#aboutburundi {
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 24px;
+    font: italic 24px Georgia, sans-serif;
+
+}
+
+#aboutB {
+    color: #fff;
+    width: 340px;
+     position: absolute;
+    top: 150px;
+        left: 20px;
+    font-size: 13px;
+    font:  13px arial, sans-serif;
+
+}
+
+#aboutturame {
+    color: #fff;   
+     position: absolute;
+    top: 270px;
+        left: 20px;
+    font-size: 24px;
+    font: italic 24px Georgia, sans-serif;
+
+}
+
+#aboutT {
+    color: #fff;
+      width: 540px;
+     position: absolute;
+    top: 342px;
+        left: 20px;
+    font-size: 13px;
+    font: italic 13px arial, sans-serif;
+
+}
+
+#bighelp {
+    color: #fff;
+     position: absolute;
+    top: 470px;
+    left: 20px;
+    font-size: 24px;
+    font: italic 24px Georgia, sans-serif;
+}
+
+#help {
+    color: #fff;
+      width: 565px;
+     position: absolute;
+    top: 540px;
+        left: 20px;
+    font-size: 13px;
+    font: italic 13px arial, sans-serif;
+
+}
+
+#africa {
+     top: 0px;
+    left: 382px;
+    width: 478px;
+    height: 620px;
+    position: absolute;  
+    background: url(../imgs/toto.png);
+}
+
+#border2 {
+    position:absolute;
+    top: 170px;
+    width: 900px;
+    height: 442px;   
+    background-color: transparent;
+    border-radius: 10px;
+    left: 350px;
+    background: linear-gradient(to bottom, rgba(232,232,232,.1) 0%, rgba(232,232,232,.1) 100%);
+}
+
+#text2 {
+    position:absolute;
+    top: 21px;
+    width: 860px;
+    height: 403px;   
+    background-color: black;
+    border-radius: 10px;
+    left: 21px;
+}
+
+#helpout {
+    color: #fff;
+     position: absolute;
+    top: 88px;
+    left: 290px;
+    font-size: 24px;
+    font: italic 24px Georgia, sans-serif;
+}
+
+#choosepay {
+    color: #fff;
+      width: 450px;
+     position: absolute;
+    top: 170px;
+    
+        left: 290px;
+    font-size: 13px;
+    font: italic 13px arial, sans-serif;
+}
+
+#heart {
+       top: 47px;
+    left: 0px;
+    width: 233px;
+    height: 280px;
+    position: absolute;    
+    background: url(../imgs/heart.png);
+    
 }
